@@ -21,12 +21,13 @@ This project demonstrates how to implement a GraphQL API using **GraphQL .NET** 
    cd GraphQLPractive
    ```
 2. **Install Dependencies**
-   ```Confluent.Kafka, GraphQL, GraphQL.DataLoader, GraphQL.Server.Transports.AspNetCore
-   ```GraphQL.Server.Ui.Playground, Microsoft.EntityFrameworkCore.SqlServer, Microsoft.EntityFrameworkCore.Tools
+   ```Confluent.Kafka, GraphQL, GraphQL.DataLoader, GraphQL.Server.Transports.AspNetCore, GraphQL.Server.Ui.Playground, Microsoft.EntityFrameworkCore.SqlServer, Microsoft.EntityFrameworkCore.Tools
 3. **Run Kafka in docker**
-   ```docker-compose up -d
+4.   ```sh
+  docker-compose up -d
+   ```
 
-4. **Run the Project**
+5. **Run the Project**
    ```sh
    dotnet run
    ```
@@ -74,7 +75,7 @@ When a student is created, the following JSON message is sent to Kafka:
     "data": {
         "createStudent": {
             "id": "1035",
-            "name": "Tran Dang Anh",
+            "name": "Tran Van Cuong",
             "age": 24,
             "class": "12A1",
             "createdAt": "2025-03-27T18:26:37.8724107Z",
