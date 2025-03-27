@@ -21,17 +21,17 @@ This project demonstrates how to implement a GraphQL API using **GraphQL .NET** 
    cd GraphQLPractive
    ```
 2. **Install Dependencies**
-  ```sh
+   ```sh
    Confluent.Kafka, GraphQL, GraphQL.DataLoader, GraphQL.Server.Transports.AspNetCore, GraphQL.Server.Ui.Playground, Microsoft.EntityFrameworkCore.SqlServer, Microsoft.EntityFrameworkCore.Tools
-  ```
-4. **Run Kafka in docker**
-  ```sh
+   ```
+3. **Run Kafka in docker**
+   ```sh
    docker-compose up -d
-  ```
-5. **Run the Project**
- ```sh
+   ```
+4. **Run the Project**
+   ```sh
    dotnet run
- ```
+   ```
 
 ## GraphQL API
 ### Endpoints
